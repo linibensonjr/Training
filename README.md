@@ -1,1 +1,3 @@
-
+This repo was created to learn how the 
+different aspects of Git works - from forking, cloning to updsting the master...
+updating
