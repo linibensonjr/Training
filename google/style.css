@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+   padding: 10px 25px 10px 25px;
+}
+
+p {
+    margin-top: 12px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.nav-item {
+  margin-left: 10px;
+  font-size: 0.78rem;
+  color: #585858;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.nav-item.nav-icon {
+    height: 18px;
+    width: 18px;
+    margin-top: 8px;
+}
+
+.account {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #639AF6;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    
+    cursor: pointer;
+}
+
+.mid-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.search{
+  position: relative;
+}
+
+.search .search-bar{
+  width: 400px;
+  position: relative;
+  margin-top: 25px;
+  padding:15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 500px;
+  outline: none;
+  border: 1px solid #dedede;
+}
+
+.search-bar:hover{
+  box-shadow: 2px 0px 8px 0 #dedede;
+}
+
+.search .material-icons{
+  position: absolute;
+  display: block;
+  text-align: center;
+  bottom: 12px;
+  left: 20px;
+  color:rgb(167, 160, 160);
+}
+
+.search .mic{
+  position: absolute;
+  width: 15px;
+  line-height: 50px;
+  display: block;
+  bottom: 12px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.button{
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: none;
+}
+.grow a{
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-top: 10px;
+  color: #1F11BE;
+  text-decoration: none;
+}
+
+p.lang{
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+p.lang a{ 
+  text-decoration: none;
+  margin-left: 10px;
+  color: #1F11BE;
+  white-space: -2px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #e4e4e4;
+  width: 100%;
+  background-color:#f2f2f2 ;
+}
+
+.nigeria{
+  margin: 10px 30px;
+  color: #585858;
+  font-size: 14px;
+}
+
+.footer-items{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 10px 30px;
+  font-size: 12px;
+}
+footer hr{
+  border: 0.8px solid #e4e4e4;
+}
+.footer-items a{
+  text-decoration: none;
+  margin-right: 20px;
+  color: #585858;
+  
+}
+a:hover{
+  text-decoration: underline;
+}
