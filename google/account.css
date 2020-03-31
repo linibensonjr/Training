@@ -31,6 +31,13 @@ p {
     margin-top: 8px;
 }
 
+.round-circle{
+    margin: 0px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
 .account {
     margin: 5px;
     padding: 5px 10px;
@@ -40,6 +47,7 @@ p {
     font-size: 14px;
     color: white;
     border: none;
+    
     cursor: pointer;
 }
 
