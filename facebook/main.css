@@ -1,0 +1,105 @@
+body, html {
+  margin: 0;
+}
+
+#get-fb {
+  width: 100%;
+  background-color: #FFFBE2;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  width: 120px;
+  margin: auto;
+}
+
+.account {
+  padding: 15px;
+  background: #F5F6F7;
+  border: solid #F5F6F7 2px;
+  border-radius: 5px;
+  outline: none;
+  margin: 5px;
+  box-shadow: 0.3px 0.3px 0.3px 0.3px #ccc;
+
+}
+
+.log {
+  width: 100%;
+  margin: auto;
+  padding: 12px;
+  background-color: #1877F2;
+  color: #FFFFFF;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px
+}
+
+.create {
+  width: 40%;
+  margin: auto;
+  padding: 12px;
+  background-color: #00A400;
+  color: #FFFFFF;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px
+}
+
+.hr {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+hr {
+  transform: rotate(90deg);
+}
+
+#or {
+  width: 12px
+
+}
+
+footer {
+text-align: center;
+color: black;
+}
+
+.info {
+  margin: 12px;
+  color: #F5F6F7;
+}
+
+.info a {
+
+  color: black;
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+  #get-fb {
+    display: none;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 50%
+  }
+
+}
