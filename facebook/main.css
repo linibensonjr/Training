@@ -66,7 +66,7 @@ img {
 }
 
 hr {
-  transform: rotate(90deg);
+
 }
 
 #or {
@@ -85,21 +85,112 @@ color: black;
 }
 
 .info a {
-
   color: black;
+}
+
+.tag-desk {
+  display: none;
 }
 
 
 
+@media screen and (min-width: 700px) {
 
-@media screen and (min-width: 600px) {
+  body {
+    background: #F0F2F5;
+  }
+
   #get-fb {
     display: none;
   }
+
   .main {
     display: flex;
     flex-direction: column;
-    width: 50%
+    margin: auto;
+  }
+
+  img {
+    width: 65%;
+  }
+
+  .tag-desk {
+    display: inline;
+    font-size: 2em;
+    margin-top: 0;
+  }
+
+  .account {
+    width: 85%;
+    padding: 25px;
+    font-size: 1.2em;
+    background: none;
+    border: solid #F0F2F5 2px;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px;
+    box-shadow: none;
+    margin: 8px
+  }
+
+  input[name='mobile_email']::placeholder {
+    opacity: 0;
+  }
+
+  .account: {
+    outline: 2px;
+  }
+
+  #or {
+    display: none;
+  }
+
+  hr {
+    display: block;
+    background: red
+  }
+
+  .account-box {
+    width: 480px;
+    padding:8px;
+    background: #FFFFFF;
+    border: solid #F5F6F7 2px;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px;
+    box-shadow: 0.3px 0.3px 0.3px 0.3px #ccc;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  button.log {
+    width: 95%;
+    margin: 8px;
+    padding: 20px;
+    font-size: 1.2em;
+
+  }
+
+  .account-box a {
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 12px
+  }
+
+  .create {
+    width: 50%;
+    margin: 8px;
+    padding: 20px;
+    font-size: 1.2em;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
   }
 
 }
