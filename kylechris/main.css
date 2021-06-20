@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.name {
+  width: 50%;
+  margin: auto;
+}
+
+h3 {
+  font-size: 2.3em;
+  margin: auto;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 10px
+  }
+
+
+.menu-items {
+    margin: auto;
+  }
+
+  .menu-items a {
+    padding: 12px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    left: 3px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+
+  header {
+    background: blue;
+  }
+
+  .main {
+    background-image: url("img/banner.jpg");
+    background-attachment: fixed;
+    height: 80vh;
+  }
+
+  .line {
+    font-size: 3em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    margin: auto;
+    width: 50%
+  }
+
+  h4{
+    padding: 0;
+    margin: 0;
+  }
+
+  button {
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.4em;
+    background: #FFFFFF;
+  }
+
+  .services {
+    background-color: #fcba03;
+    height: 80vh;
+  }
+
+  .projects {
+    background-color: #f7ce5c;
+    height: 30vh;
+  }
+
+  .projects {
+    background-color: #ffe499;
+    height: 30vh;
+  }
+
+  .contact {
+    background-color: #d5ebd1;
+    height: 50vh;
+  }
+
+  footer {
+    height: 40vh;
+    background-color: #5d5f85;
+  }
